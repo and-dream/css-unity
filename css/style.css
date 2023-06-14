@@ -11,10 +11,26 @@
     width: 35vw;
 }
 
+/* on va préférer une unité en % 
+une hauteur fixe est une mauvaise pratique 
+s'il n'y a pas de hauteur le contenu s'adapte
+et on va préférer un min-height, il peut faire plus grand s'il a besoin */
+
+/* avantage du min-height si il y a trop de place je veux qu'il ait un minimum de place */
+
+.txt-responsive {
+    background-color: coral;
+    width: 90%;
+    min-height: 200px;
+    margin: auto;
+}
+/* une largeur fixe en px posera problème, un width en % sera plus responsive */
+
 .container {
     height: 300px;
     width: 300px;
     margin: 50px auto;
+    
     /* flexbox pour le centrer c'est si il y a plusieurs enfants/éléments */
     /* margin-left: auto; */
     /* margin à gauche */
@@ -47,4 +63,31 @@
 
     background-color: blue;
 }
+
+.viewport-min-max {
+    background-color: darkgrey;
+
+    height: 300px;
+    width: 25vmin;
+}
+
+/* vmin pourcentage du côté le plut petit */
+/* vmax pourcentage du côté le plus grand */
+
+
+/* les em sont relatifs à la taille du texte courant (ici 20px) */
+/* donc width 20em = 20 x 20px */
+.font-em-rem {
+    font-size: 20px;
+    height: 20em;
+    width: 20em;
+    /* les rem sont relatifs à la taille du texte sur le navigateur (par défaut 16px) */
+    padding: 1rem;
+    background-color: fuchsia;
+}
+
+/* taille par défaut du texte 16px
+donc 10em c'est 10x la taille du texte
+*/
+/* padding 1 fois la taille du texte, il est relatif à la taille du texte */
 

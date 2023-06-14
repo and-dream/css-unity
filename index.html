@@ -16,6 +16,25 @@
     <div>
     <h1>Les unités en css</h1>
 
+    <h2>Afficher une section de façon responsive</h2>
+    <!-- donnez lui une taille 200px / 200 px -->
+    <!-- auto en hauteur il s'adapte au contenu -->
+    <!-- le contenu est plus grand donc il déborde -->
+    <div class="txt-responsive">
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum quia amet, laborum numquam consequuntur impedit, repellendus culpa consequatur ipsa soluta, vero pariatur eveniet perferendis eos dolorum. Repudiandae maxime aperiam molestiae.
+            Sunt error, iusto quibusdam quam quisquam temporibus distinctio nobis veritatis laborum eum, voluptatibus sapiente, deserunt voluptates! Illum perspiciatis sit praesentium eligendi doloremque repellat assumenda commodi, ipsam, ipsum aliquam vel aspernatur.
+            Earum, ex minima omnis aperiam rerum ad iusto nulla sunt saepe maiores maxime dolor eveniet, nesciunt cupiditate quia beatae voluptates, temporibus velit id culpa blanditiis nostrum eum debitis! Optio, dignissimos.
+            Neque, itaque molestiae, totam consequatur pariatur minus magni ratione mollitia aspernatur officia cupiditate quod architecto possimus, repellat rem assumenda? Aspernatur, officiis asperiores deleniti itaque doloremque non aliquam dolor architecto! Ipsa!
+            Recusandae mollitia, aliquam accusamus autem quisquam dolore velit quam voluptate at culpa, eveniet ratione non dicta omnis nostrum exercitationem, architecto id temporibus ipsum commodi aspernatur? Voluptate nobis aspernatur repellendus eius.
+            Doloribus quaerat blanditiis perspiciatis excepturi suscipit magnam cupiditate cumque accusamus, quas quia asperiores architecto veritatis, odio recusandae. Ut in vel exercitationem amet, eos quo aliquam, harum sit accusantium architecto recusandae.
+            Rem cum necessitatibus consequatur culpa nisi, blanditiis vel nostrum et, nihil, perspiciatis incidunt architecto! Repellat ut nesciunt quidem, fuga maxime assumenda sit ipsum, blanditiis quia hic nam incidunt modi distinctio.
+            Autem, veniam consequatur quidem ducimus rerum odio at voluptatem totam quos reiciendis assumenda recusandae sed illum ipsa exercitationem sunt eos minus non suscipit eaque a nam! Consectetur impedit odit debitis.
+            Nihil odio doloremque quo explicabo consectetur temporibus voluptatibus dicta consequatur dignissimos quos. Culpa ipsum qui consequatur. Laudantium suscipit ipsum repudiandae aperiam voluptatum dolor, corporis, sapiente laborum labore recusandae tempora consequatur.
+            Qui quas repellat quibusdam nostrum omnis, non suscipit necessitatibus, libero autem a dolor error repudiandae adipisci ipsum ratione. Esse, animi quaerat odio inventore assumenda id labore mollitia sed exercitationem tenetur.
+        </p>
+    </div>
+
     <h2>Les unités en pixels</h2>
     <!-- creer une div qui fera 300px / 300px centrée -->
     <div class="container"></div>
@@ -30,7 +49,7 @@
         </div>
     </div>  
     
-    <h2>Les unités relatives au viewport</h2>
+    <h2>vw, vh, Les unités relatives au viewport</h2>
     <!-- recreer une div qui fait 300 sur 300px centré -->
     <!-- a l'interieur une autre div qui fera 100px / 100px -->
 
@@ -47,6 +66,19 @@
             background-color: blue;
 }
      -->
+
+     <h2>vmin, vmax, relatifs au côté le plus petit ou le plus grand</h2>
+     <!-- creer une div qui fera 300px en hauteur -->
+     <!-- en largeur elle fera 25vmin -->
+     <div class="viewport-min-max"></div>
+
+
+     <h2>rem, em, relatifs à la taille de la police</h2>
+     <!-- creer une div qui fera en hauteur et en largeur 10em -->
+     <div class="font-em-rem">
+        <P>Salut tout le monde</P>
+     </div>
+
 
     </div>
 </body>
