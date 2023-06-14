@@ -7,6 +7,47 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+    <!-- en hauteur 35% de la largeur de l'écran -->
+    <!-- en largeur 35% de la largeur de l'écran -->
+    <div class="viewport"></div>
+    <!-- il est relatif à la taille de l'écran et non au contenu dans body -->
     
+    
+    <div>
+    <h1>Les unités en css</h1>
+
+    <h2>Les unités en pixels</h2>
+    <!-- creer une div qui fera 300px / 300px centrée -->
+    <div class="container"></div>
+
+    <h2>Les pourcentages</h2>
+    <!-- créer une div qui fera 300px de largeur et 300px de hauteur centree -->
+    <!-- a l'intérieur on met une autre div taille de 25% /25% -->
+
+    <div class="pixel-main">
+        <div class="pixel-second">
+
+        </div>
+    </div>  
+    
+    <h2>Les unités relatives au viewport</h2>
+    <!-- recreer une div qui fait 300 sur 300px centré -->
+    <!-- a l'interieur une autre div qui fera 100px / 100px -->
+
+    <div class="container">
+        <div class="child-container"></div>
+    </div>
+    <!-- viewport taille relative à la fenêtre -->
+    <!-- 
+
+        .child-container {
+            width: 100vw;
+            height: 100vh;
+
+            background-color: blue;
+}
+     -->
+
+    </div>
 </body>
 </html>

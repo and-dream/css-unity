@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.viewport {
+    background-color: chartreuse;
+
+    height: 35vw;
+    width: 35vw;
+}
+
+.container {
+    height: 300px;
+    width: 300px;
+    margin: 50px auto;
+    /* flexbox pour le centrer c'est si il y a plusieurs enfants/éléments */
+    /* margin-left: auto; */
+    /* margin à gauche */
+    /* la page n'a pas de hauteur dans le body elle s'arrête au contenu */
+    background-color: aqua;
+}
+
+.pixel-main {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+
+    background-color: pink;
+}
+
+.pixel-second {
+    /* sans contenu elle fait 0 pixel donc on ne la voit pas */
+    /* en largeur une div prend auto donc toute la totalité 100%
+        la hauteur c'est la hauteur du contenu */
+    /* c'est dans le body qu'il n'y a pas de hauteur par défaut, c'est la taille du contenu*/
+    width: 25%;
+    height: 25%;
+
+    background-color: blueviolet;
+}
+
+.child-container {
+    width: 100px;
+    height: 100px;
+
+    background-color: blue;
+}
+
